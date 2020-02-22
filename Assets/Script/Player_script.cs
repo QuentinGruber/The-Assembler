@@ -175,6 +175,7 @@ public class Player_script : MonoBehaviour
     {
         if (col.gameObject.tag == "Ground")
         {
+            Player_rb.velocity = new Vector3(0, 0, 0);
             OnGround = true;
         }
 

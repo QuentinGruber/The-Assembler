@@ -50,7 +50,6 @@ public class GameManager : MonoBehaviour
     public void NextLVL(){
         CurrentLVL++;
         AmmoRemaining = 3;
-        print(CurrentLVL);
         if (CurrentLVL == 2){
             Part1.SetActive(false);
             Part2.SetActive(true);
